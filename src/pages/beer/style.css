@@ -1,0 +1,30 @@
+.container-details {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.container-details img {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-right: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.back {
+  font-size: 30px;
+}
+
+.btn-back {
+  background: #083f5d;
+  color: #fff;
+  border-radius: 5px;
+  margin: 15px 15px;
+  padding: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
